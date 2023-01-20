@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="com.sm.Profile_Module.EditProfileWithTestNgTest"/>
+      <class name="com.sm.Profile_Module.EditProfileAndUpdateProfilePhotoWithTestNGTest"/>
+      <class name="com.sm.Photo_Module.AddingPhotoWithTestNGTest"/>
+      <class name="com.sm.Home_Module.ShareStatusWithTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+   

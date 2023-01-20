@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test name="chrome1">
+    <classes>
+      <class name="com.sm.Profile_Module.EditProfileWithTestNgTest"/>
+      <class name="com.sm.Profile_Module.EditProfileAndUpdateProfilePhotoWithTestNGTest"/>
+      </classes>
+      </test>
+      <test name ="chrome2">
+      <classes>
+      <class name="com.sm.Photo_Module.AddingPhotoWithTestNGTest"/>
+      <class name="com.sm.Home_Module.ShareStatusWithTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

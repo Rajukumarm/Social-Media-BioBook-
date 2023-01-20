@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test name="Chrome">
+  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.sm.Profile_Module.EditProfileWithTestNgTest"/>
+
+      
+    </classes>
+  </test>
+  <test name="FireFox">
+  <parameter name="Browser" value="FireFox"></parameter>
+    <classes>
+      <class name="com.sm.Profile_Module.EditProfileWithTestNgTest"/>
+
+      
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

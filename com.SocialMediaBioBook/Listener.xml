@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+  <Listeners>
+  <Listener class-name="com.GenricUtility.ListenerImplimentationClass"></Listener>
+  </Listeners>
+    <classes>
+      <class name="com.sm.User_Module.WriteAndDeleteCommentWithTestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

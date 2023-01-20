@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="Test">
+  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.sm.Home_Module.ShareStatusWithTestNGTest"/>
+      <methods>
+      <include name="college"></include>
+      
+      </methods>
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
